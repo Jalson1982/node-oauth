@@ -6,7 +6,7 @@ const config = require('./config');
 const postForm = require('./helpers/postForm');
 const loginProviders = require('./loginProviders');
 const getData = require('./helpers/getData');
-
+const config = require('./config');
 const app = express();
 
 const PORT = config.PORT || 8084;
