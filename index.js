@@ -9,7 +9,7 @@ const getData = require('./helpers/getData');
 
 const app = express();
 
-const PORT = config.PORT || 8084;
+const PORT = 6000;
 
 app.use(bodyParser.urlencoded({ extended: true }));
 
